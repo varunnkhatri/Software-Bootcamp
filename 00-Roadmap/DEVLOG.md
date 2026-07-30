@@ -1,0 +1,13 @@
+# Sprint 1 - Day 1
+
+## Today I learned
+- ...
+
+## Problems I faced
+- ...
+
+## How I solved them
+- ...
+
+## Questions for tomorrow
+- ...
