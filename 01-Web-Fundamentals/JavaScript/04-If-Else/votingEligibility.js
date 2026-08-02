@@ -20,6 +20,17 @@
 // }
 
 
+// const employeeName = "Varun";
+// const isManager = false;
+// const experience = 6;
+
+// if(isManager || experience >=5 ){
+//     console.log(`${employeeName} is allowed for remote work`);
+// }
+// else{
+//     console.log(`${employeeName} not allowed for remote work`);
+// }
+
 const employeeName = "Varun";
 const isManager = false;
 const experience = 6;
