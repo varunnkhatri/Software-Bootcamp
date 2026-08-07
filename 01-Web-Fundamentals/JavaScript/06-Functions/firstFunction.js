@@ -35,6 +35,6 @@
 
 
 const marks = [85, 72, 91, 67];
-for (i=0; i<marks.length; i++){
+for (let i=0; i<marks.length; i++){
     console.log("Student " + (i+1) + ":", marks[i])
 }
