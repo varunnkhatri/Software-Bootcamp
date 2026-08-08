@@ -102,7 +102,7 @@ function getSalaryStatus(salary){
 
 
 function printEmployees(employees) {
-    for (let i = 0; i < employees.length; i++){
+    employees.ForEach(function(employees)){
         const isActive = getEmployeeStatus(employees[i].isActive);
         const salaryStatus = getSalaryStatus(employees[i].salary);
         
