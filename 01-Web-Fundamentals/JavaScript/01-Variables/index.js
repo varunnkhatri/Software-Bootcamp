@@ -1,10 +1,9 @@
 let name="varun";
-let age=22;
+age=22;
 let email="varun@example.com";
-let city="delhi";
+city="delhi";
 let isPremium=true;
-age = 23;
-city = "Gurgaon";
+
 
 console.log(name);
 console.log(age);
