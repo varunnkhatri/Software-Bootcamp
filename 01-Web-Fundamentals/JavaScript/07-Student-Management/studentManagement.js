@@ -82,7 +82,7 @@ printHeader("Employee Management System")
 
 
 function getEmployeeStatus(isActive){
-if (isActive===true){
+if (isActive){
     return ("Active");
 }
 else{
@@ -111,6 +111,7 @@ function printEmployees(employees) {
         console.log(`Department     : ${employees[i].department}`);
         console.log(`Salary         : ${employees[i].salary}`);
         console.log(`Status         : ${isActive}`);
+        console.log(`Salary Status  : ${salaryStatus}`);
         console.log(`============================`);
         
     }
