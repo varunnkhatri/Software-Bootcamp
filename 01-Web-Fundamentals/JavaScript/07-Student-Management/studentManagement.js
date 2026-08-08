@@ -106,8 +106,15 @@ function printEmployees(employees) {
         const isActive = getEmployeeStatus(employees[i].isActive);
         const salaryStatus = getSalaryStatus(employees[i].salary);
         
-        console.log(`Employee ${i+1}, Name : ${employees[i].name} Department : ${employees[i].department}, Salary : ${employees[i].salary}, Status : ${isActive}, Salary Status : ${salaryStatus}`)
-}
+        console.log(`Employee ${i+1}`);
+        console.log(`Name           : ${employees[i].name}`);
+        console.log(`Department     : ${employees[i].department}`);
+        console.log(`Salary         : ${employees[i].salary}`);
+        console.log(`Status         : ${isActive}`);
+        console.log(`============================`);
+        
+    }
 
 }
 
+printEmployees(employees);
