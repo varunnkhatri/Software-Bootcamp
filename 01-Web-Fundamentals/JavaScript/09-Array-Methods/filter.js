@@ -12,8 +12,8 @@ const employees = [
     { name: "Aashi", salary: 30000 }
 ];
 
-const earning = employees.filter(function(employees){
-    return employees.earning >= 50000;
+const earning = employees.filter(function(employee){
+    return employee.salary >= 50000;
 })
 
 console.log(earning);
