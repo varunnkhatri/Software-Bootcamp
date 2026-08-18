@@ -6,4 +6,4 @@ Become a Frontend Developer.
 Started: July 2026
 
 Current Sprint:
-Sprint 0
+Sprint 2
